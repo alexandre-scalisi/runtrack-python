@@ -6,4 +6,5 @@ def round_up(num):
             return i
     return num
 
-print(round_up(93))
+while True:
+    print(round_up(int(input('Choisissez votre note\n'))))
